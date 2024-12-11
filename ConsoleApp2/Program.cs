@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp2
+﻿using System.Drawing;
+
+namespace ConsoleApp2
 {
     internal class Program
     {
@@ -171,6 +173,24 @@
             // X value will change from 10 to 20 in secound print
 
             #endregion
+
+
+            #region Question 3
+            point p1 = new point();
+
+            point p2 = new point(); ;
+            p2 = p1;
+            p1.x = 18;
+
+
+            Console.WriteLine(p2.x);
+
+
+            //afte edit p1=p2 , x2=x1
+
+
+            #endregion
+
 
 
         }
