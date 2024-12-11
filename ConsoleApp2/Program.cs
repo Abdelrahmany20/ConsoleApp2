@@ -143,6 +143,18 @@
 
 
             #endregion
+
+
+
+            #region Question 1
+
+            Console.Write("Enter a Number: ");
+            string input = Console.ReadLine();
+            Console.WriteLine("The Number is: " + input);
+
+
+            #endregion
+
         }
     }
 }
