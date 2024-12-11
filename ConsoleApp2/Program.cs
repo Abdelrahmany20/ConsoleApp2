@@ -155,6 +155,24 @@
 
             #endregion
 
+
+            #region Question 2
+
+
+            int x = 10;
+            int y = 5;
+            y = x;
+            Console.WriteLine($"x before ={x},y before={y}");
+
+            x = 20;
+
+            Console.WriteLine($" x after = {x}, y after = {y}");
+
+            // X value will change from 10 to 20 in secound print
+
+            #endregion
+
+
         }
     }
 }
